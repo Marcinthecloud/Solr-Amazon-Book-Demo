@@ -17,7 +17,7 @@ A special thank you to Matt Stump for helping put this together.
   * ```for tarball installs: bin/dse cassandra -s```
   * ```for package installs: set SOLR=1 in the dse.default file and run: service dse start```
 2. Run solr_dataloader.py
-  * NOTE: You need to change the contact points in solr_dataloder.py where cluster = Cluster(['ip1','ip2'])
+  * NOTE: You need to change the contact points in solr_dataloder.py where ```cluster = Cluster(['ip1','ip2'])```
   * This will create the CQL schemas and load the data 
 3. Run create_core.sh 
   * This will generate Solr cores and index the data
